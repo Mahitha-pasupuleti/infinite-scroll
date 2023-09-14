@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Infinite Scroll</title>
+    <link rel="icon" type="image/png" href=favicon.png>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Script -->
-    <h1>Hello, World!</h1>
+    <h1>Unsplash API - Infinite Scroll</h1>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <img src="loader.svg" alt="Loading">
+    </div>
+    <!-- Image Container -->
+    <div class="image-container" id="image-container">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
